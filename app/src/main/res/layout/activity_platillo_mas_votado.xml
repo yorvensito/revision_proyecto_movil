@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvPlatilloMasVotado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Platillo más votado" />
+
+    <TextView
+        android:id="@+id/tvNombrePlatillo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre del platillo más votado:" />
+
+    <TextView
+        android:id="@+id/tvCalificacionPlatillo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calificación del platillo:" />
+
+</LinearLayout>

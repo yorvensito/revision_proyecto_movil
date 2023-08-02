@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre" />
+
+    <EditText
+        android:id="@+id/etApellido"
+        android:layout_below="@id/etNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellido" />
+
+    <EditText
+        android:id="@+id/etEdad"
+        android:layout_below="@id/etApellido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad" />
+
+    <EditText
+        android:id="@+id/etSexo"
+        android:layout_below="@id/etEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sexo" />
+
+    <EditText
+        android:id="@+id/etDireccion"
+        android:layout_below="@id/etSexo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Direccion" />
+
+    <EditText
+        android:id="@+id/etCorreo"
+        android:layout_below="@id/etDireccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo" />
+
+    <EditText
+        android:id="@+id/etNivel"
+        android:layout_below="@id/etCorreo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nivel de estudios" />
+
+    <EditText
+        android:id="@+id/etComentario"
+        android:layout_below="@id/etNivel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Comentario" />
+
+    <Button
+        android:id="@+id/btnEnviarComentario"
+        android:layout_below="@id/etComentario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar comentario" />
+
+</RelativeLayout>
